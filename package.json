@@ -1,0 +1,37 @@
+{
+  "name": "sol-crypto",
+  "version": "1.0.0",
+  "description": "This a suite of libraries that implement signature validation and merkle proof verification as a set of smart contracts.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test/*.test.js --exit --timeout 0"
+  },
+  "author": "StealthSwap",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stealthswap/solcrypto.git"
+  },
+  "keywords": [
+    "Solidity",
+    "Cryptography",
+    "Libraries"
+  ],
+  "bugs": {
+    "url": "https://github.com/stealthswap/solcrypto/issues"
+  },
+  "homepage": "https://github.com/stealthswap/solcrypto#readme",
+  "devDependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/test-environment": "^0.1.4",
+    "@openzeppelin/test-helpers": "^0.5.6",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.2"
+  },
+  "dependencies": {
+    "ethereumjs-util": "^7.0.4"
+  }
+}
